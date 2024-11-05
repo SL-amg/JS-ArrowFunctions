@@ -18,5 +18,6 @@ console.log(square(5));
 
 // [🌶️🌶️] Create an arrow function that takes an array of numbers and returns a new array with each number squared.
 const arrayOfNumbers = [1, 2, 3, 4, 5];
-const squaredArray =arrayOfNumbers.map(num => num**2);
-console.log(squaredArray);
+const squareFunction= (array) => array.map(num => num**2);
+squareFunction(arrayOfNumbers);
+console.log(squareFunction(arrayOfNumbers));
