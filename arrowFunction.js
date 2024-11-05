@@ -5,27 +5,21 @@
 	}
 ********************************/
 
-const greetArrow = (name) => { 
-    console.log(`Hello, ${name} !`);
-}
-greetArrow("Abdullah");
-greetArrow("Khalid");
+const greetArrow = (name) => (`Hello, ${name} !`);
+// greetArrow("Abdullah");
+// greetArrow("Khalid");
+console.log(greetArrow("Abdullah"));
 
 
 // Write a simple arrow function that takes two parameters and returns their sum.
 
-const sumOfTwoValues = (firstNum, secondNum) => {
-    console.log(firstNum + secondNum);}
-sumOfTwoValues(10,5);
-sumOfTwoValues(76,3);
+const sumOfTwoValues = (firstNum, secondNum) => firstNum + secondNum
+console.log(sumOfTwoValues(10,5));
 
 // Write a simple arrow function that squares a number.
 
-const squareAnNumber = (numSquare) => {
-    console.log(numSquare**2);
-}
-squareAnNumber(2);
-squareAnNumber(3);
+const squareAnNumber = (numSquare) => numSquare**2;
+console.log(squareAnNumber(2));
 
 
 // [🌶️🌶️] Create an arrow function that takes an array of numbers and returns a new array with each number squared.
